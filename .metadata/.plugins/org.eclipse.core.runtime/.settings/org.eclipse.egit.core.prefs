@@ -1,6 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\admin stagiaire\\git\\repository\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\admin stagiaire\\git\\repository\\.git;
-RepositoryGroups.cad503c5-02ed-4d96-9539-1282ce50000b=New Group
-RepositoryGroups.group.cad503c5-02ed-4d96-9539-1282ce50000b=
-RepositoryGroups.uuids=cad503c5-02ed-4d96-9539-1282ce50000b
+GitRepositoriesView.GitDirectories=C\:\\Users\\admin stagiaire\\git\\repository\\.git;C\:\\Users\\admin stagiaire\\Desktop\\POEC-Java\\ProjetJava\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\admin stagiaire\\git\\repository\\.git;.git;
+RepositoryGroups.uuids=
+RepositorySearchDialogSearchPath=C\:\\Users\\admin stagiaire\\Desktop\\POEC-Java\\ProjetJava\\.git
 eclipse.preferences.version=1

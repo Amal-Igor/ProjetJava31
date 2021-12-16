@@ -10,26 +10,32 @@ public class Exercice24 {
 		
 		int[]arr = new int[5];
 		int count = 0;
-		int x;
+		int i;
+		int x = 0;
 		
 		
-		for(int i = 0 ; i < 5 ; i++) {
+		for(i = 0 ; i < 5 ; i++) {
 			System.out.println("Veuillez rentrer le nombre " + (i + 1) + " :");
 			arr[i] = clavier.nextInt();
 		}
 		
 		
-			System.out.println("Veuillez rentrer un nombre dont vous voulez voir l'occurence : ");
-			x = clavier.nextInt();
+//			System.out.println("Veuillez rentrer un nombre dont vous voulez voir l'occurence : ");
+//			x = clavier.nextInt();
 
-			for(int i = 0; i < arr.length; i++) {
+			for(i = 0; i < arr.length; i++) {
 				if(x == arr[i]) {
 					count++;
-				}
-		}
+			}		
+			System.out.println("Le nombre " + arr[i] + " apparait " + count[i] +" fois");
+			}
+		
+		
+		
+		System.out.println(count);
 			
-		//Trouver les occurences 		
-		System.out.println("Le nombre " + x + " apparait " + count + " fois ! ");
+		//Trouver les occurences
+//		System.out.println("Le nombre " + x + " apparait " + count + " fois ! ");
 		
 		 
 	}
