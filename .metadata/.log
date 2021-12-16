@@ -5840,3 +5840,66 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 76 more
+
+!ENTRY org.eclipse.equinox.security 1 0 2021-12-16 10:15:53.653
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2021-12-16 10:15:56.730
+!MESSAGE An exception occurred during push on URI https://github.com/Amal-Igor/ProjetJava.git: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:147)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:137)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-12-16 10:15:56.731
+!MESSAGE Can't connect to any repository: https://github.com/Amal-Igor/ProjetJava.git (https://github.com/Amal-Igor/ProjetJava.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-12-16 10:17:04.039
+!MESSAGE An exception occurred during push on URI https://github.com/Amal-Igor/ProjetJava.git: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-12-16 10:17:56.059
+!MESSAGE An exception occurred during push on URI https://github.com/Amal-Igor/ProjetJava.git: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-12-16 10:18:20.658
+!MESSAGE An exception occurred during push on URI https://github.com/Amal-Igor/ProjetJava.git: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Amal-Igor/ProjetJava.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
