@@ -1,0 +1,23 @@
+package fr.dawan.boucles;
+
+public class BouclesFor {
+
+	public static void main(String[] args) {
+		/*Exemple 1 : l'utilité des boucles
+		 */
+		
+		//Boucle for permet (for, while, do-while)
+		
+		
+		/*
+		 * Utilisation boucle for
+		 * Elle s'utilise quand on connait le nombre d'itérations
+		 */
+		
+		int x = 0;
+		for (int i = 0; i <= 10; i++) {
+			System.out.println("La valeur de x" + x*2);
+		}
+	}
+
+}

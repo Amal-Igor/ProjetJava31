@@ -1,0 +1,18 @@
+package fr.dawan.tableaux.tableauxdynamiques;
+
+import java.util.ArrayList;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> tab = new ArrayList();
+		
+		//Parser une chaine de caractère entier
+		int k = Integer.parseInt("20");
+		
+		//On peut aussi convertir une chaine de caractère en un entier de type Wrapper
+		Integer i = Integer.valueOf("210");
+		System.out.println(i);
+	}
+
+}

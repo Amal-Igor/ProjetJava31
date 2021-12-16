@@ -1,0 +1,36 @@
+package fr.dawan.condition;
+
+import java.util.Scanner;
+
+public class InstructionSwitch {
+
+	public static void main(String[] args) {
+		Scanner clavier = new Scanner (System.in);
+		
+		int jours = 7;
+		
+		//Fournir les données d'entrées 
+		System.out.println("Saisir le numéro du jour : 	");
+		jours = clavier.nextInt();
+		
+		//Boucle else/if 
+		if (jours == 1) {
+			System.out.println("Nous sommes Lundi !");
+		} else if (jours == 2) {
+			System.out.println("Nous sommes Mardi ! ");
+		}else if (jours == 3) {
+			System.out.println("Nous sommes Mercredi !");
+		}else if (jours == 4) {
+			System.out.println("Nous sommes Jeudi !");
+		}else if (jours == 5) {
+			System.out.println("Nous sommes Vendredi");
+		}else if (jours == 6) {
+			System.out.println("Nous sommes Samedi ");
+		}else if (jours == 7) {
+			System.out.println("Nous sommes Dimanche");
+		}else {System.out.println("Entrée invalide !!");}
+		
+	
+	}
+
+}

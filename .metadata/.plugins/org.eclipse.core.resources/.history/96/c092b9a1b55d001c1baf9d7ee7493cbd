@@ -1,0 +1,23 @@
+package fr.dawan.tableaux.tableauxstatiques;
+
+import java.util.Arrays;
+
+public class IterationClassiqueVSIterationParValeur {
+static Scanner clavier = new Scanner(System.in);
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * Nous allons voir les avantages et inconvénients entre l'itération classique et itération par valeur
+		 */
+		
+		int age[] = new int[10];
+		for(int i = 1; i < 10; i++) {
+			System.out.println("Entrez l'age de l'utilisateur " + i + ": ");
+			age[i] = clavier.nextInt();
+		}
+		System.out.println(Arrays.toString(age));
+		
+		
+	}
+
+}

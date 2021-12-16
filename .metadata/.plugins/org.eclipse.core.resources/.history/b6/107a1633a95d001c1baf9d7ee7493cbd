@@ -1,0 +1,38 @@
+package fr.dawan.exercices;
+
+import java.util.Scanner;
+
+public class Exercice11 {
+
+	public static void main(String[] args) {
+		Scanner clavier = new Scanner(System.in);
+		
+		int a, b;
+		String operateur = "";
+		
+		System.out.println("Veuillez renseigner une premier chiffre : ");
+		a = clavier.nextInt();
+		System.out.println("Quelle opération souhaité vous effectuer + - / * ? ");
+		operateur = clavier.next();
+		System.out.println("Veuillez renseigner une deuxième chiffre : ");
+		b = clavier.nextInt();
+	
+			
+		switch(operateur) {
+		case "+" : System.out.println("Le resultat  est égal à : " + (a+b));
+		break;
+		case "-": System.out.println("Le résultat est égale à : " + (a-b));
+		break;
+		case "/": System.out.println("Le résultat est égale à : " + (a/b));
+		break;
+		case "*": System.out.println("Le résultat est égale à : " + (a*b));
+		default: System.out.println("Entrée invalide !!");
+		break;
+		};
+		
+
+		
+		
+	}
+
+}

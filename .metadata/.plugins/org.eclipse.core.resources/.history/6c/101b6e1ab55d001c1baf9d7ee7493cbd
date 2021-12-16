@@ -1,0 +1,10 @@
+package fr.dawan.tableaux.tableauxstatiques;
+
+public class IterationClassiqueVSIterationParValeur {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

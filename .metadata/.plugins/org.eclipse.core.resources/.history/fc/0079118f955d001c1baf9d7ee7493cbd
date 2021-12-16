@@ -1,0 +1,57 @@
+package fr.dawan;
+
+import java.util.Scanner;
+
+public class OperateursLogiques {
+
+	public static void main(String[] args) {
+		/*
+		 * Les opérateurs logiques s'appliquent sur des opérandes booléens et produisent un résultat
+		 * qui est forcémeent booléen
+		 * 
+		 * Java comporte 3 opérateurs logiques dont, dont une unaire et deux binaires
+		 * 
+		 * A&&B est (true) si A = true et B = true
+		 * A||B est vrai si un des opérandes est vraie sinon faux
+		 * !A ==> A est vraie alors !A est faux
+		 * 
+		 * Table logique 
+		 * A	B			A&&B 		A||B 		!A
+		 * v	v			  v		   	 v           f
+		 * v	f			  f			 v			 f
+		 * f	v			  f			 v			 v
+		 * f	f			  f		     f			 v
+		 */
+		
+		
+		Scanner clavier = new Scanner(System.in);
+		
+		int a, b , c;
+		int nbre = 0;  //Test opérateur !
+		
+		//Fournir 
+		System.out.println("Entrez la valeur de a: ");
+		a = clavier.nextInt();
+		System.out.println("Entrez la valeur de b: ");
+		b = clavier.nextInt();
+		System.out.println("Entrez la valeur de c: ");
+		c = clavier.nextInt();
+		
+		
+		//Test OU
+		if (a == b || b == c) {
+			System.out.println("Deux valeurs sont au moins identiques. ");
+		}
+		//Test ET
+		if(a == b && b == c) {
+			System.out.println("Deux valeurs sont au moisn identiques. ");
+		}
+		
+		//Opérateur Non(!)
+		System.out.println("");
+		System.out.println("");
+		nbre = clavier.nextInt();
+		
+	}
+
+}

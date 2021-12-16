@@ -1,0 +1,12 @@
+package fr.dawan.tableaux.tableauxstatiques;
+
+public class TableauxMultidimentionelsDeclarationEtInitialisation {
+
+	public static void main(String[] args) {
+		
+		int[] scores = {10, 20, 30};
+		//Création d'un tableau à deux dimensions 
+		int[] [] scores = new int[2][3];/// le premier [] ligne le deuxièeme [] colones
+	}
+
+}

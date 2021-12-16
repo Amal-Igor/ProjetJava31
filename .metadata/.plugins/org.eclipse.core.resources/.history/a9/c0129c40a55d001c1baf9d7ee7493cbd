@@ -1,0 +1,26 @@
+package fr.dawan.exercices;
+
+import java.util.Scanner;
+
+public class Exercice9 {
+
+	public static void main(String[] args) {
+		
+		Scanner clavier = new Scanner(System.in);
+		
+//		int year = 0;
+//		
+//		System.out.println("Veuillez entrer une année pour vérifier si elle est bissextile : ");
+//
+//		year = clavier.nextInt();
+//		if (year/4 == (int)year && year/100 != (int)year || year/400 == (int)year) {
+//		
+//		System.out.println("L'année est bissextile ");
+//			
+//		} else { System.out.println("L'année n'est pas bissextile !");}
+//	}
+		
+		System.out.println(Math.floor(2000/4));
+		
+	}
+}

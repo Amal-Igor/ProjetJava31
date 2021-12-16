@@ -1,0 +1,23 @@
+package fr.dawan.exercices;
+
+import java.util.Scanner;
+
+public class Exercice10 {
+
+	public static void main(String[] args) {
+		Scanner clavier = new Scanner(System.in);
+		int a, b, c;
+		
+		System.out.println("Veuillez entrée un premier chiffre : ");
+		a = clavier.nextInt();
+		System.out.println("Veuillez entrée un deuxième chiffre :");
+		b = clavier.nextInt();
+		System.out.println("Veuillez entrée un troisième chiffre :");
+		c = clavier.nextInt();
+		
+		Math.max(a, Math.max(b, c));
+		System.out.println("Le nombre le plus élevé est le " + Math.max(a, Math.max(b, c)));
+
+	}
+
+}

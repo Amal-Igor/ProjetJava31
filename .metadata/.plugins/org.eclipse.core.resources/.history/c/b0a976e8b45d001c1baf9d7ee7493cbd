@@ -1,0 +1,10 @@
+package fr.dawan.tableaux.tableauxstatiques;
+
+public class IterationClassique {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

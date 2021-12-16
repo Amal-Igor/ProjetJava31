@@ -1,0 +1,14 @@
+package fr.dawan.boucles;
+
+import java.util.Scanner;
+
+/
+public class BoucleDoWhile {
+
+	*
+	 * La boucle DO-WHILE permet de repeter des insctructions tant qu'une condition n'est pas vérifiée
+	 * Comme la condition est etstée à la fin on est sur  de passer dans le bloc d'insctruction au moins une fois (p30)
+	 * 
+	 */
+	
+}
