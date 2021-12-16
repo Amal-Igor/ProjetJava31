@@ -28,8 +28,11 @@ public class Exercice24 {
 				}
 		}
 			
-		//Trouver les occurences 		
+			
 		System.out.println("Le nombre " + x + " apparait " + count + " fois ! ");
+		//Trouver les occurences 
+		System.out.println(Arrays.toString(arr));
+		
 		
 		 
 	}

@@ -26,10 +26,12 @@ public class Exercice24 {
 				if(x == arr[i]) {
 					count++;
 				}
+				System.out.println(count);
+
 		}
-			
-		//Trouver les occurences 		
-		System.out.println("Le nombre " + x + " apparait " + count + " fois ! ");
+		//Trouver les occurences 
+		System.out.println(Arrays.toString(arr));
+		
 		
 		 
 	}
