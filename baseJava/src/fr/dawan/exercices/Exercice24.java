@@ -27,7 +27,7 @@ public class Exercice24 {
 				if(x == arr[i]) {
 					count++;
 			}		
-			System.out.println("Le nombre " + arr[i] + " apparait " + count[i] +" fois");
+			System.out.println("Le nombre " + arr[i] + " apparait " + count +" fois");
 			}
 		
 		
